@@ -1,8 +1,6 @@
-kaggle
+streamlit
 pandas
+plotly
+pytest
 numpy
 scikit-learn
-matplotlib
-seaborn
-python-dotenv
-jupyter
