@@ -1,9 +1,6 @@
 # Python
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
-.Python
 
 # Virtual environment
 .venv/
@@ -13,22 +10,20 @@ env/
 # PyCharm
 .idea/
 
-# OS
-.DS_Store
-
-# Streamlit
-.streamlit/
-
-# Environment
+# Environment and secrets
 .env
+kaggle.json
 
-# Data files
+# Data
 data/raw/
 data/processed/
 *.csv
 *.xlsx
 *.parquet
 *.zip
+
+# OS
+.DS_Store
 
 # Logs
 *.log
