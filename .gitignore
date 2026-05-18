@@ -1,29 +1,27 @@
 # Python
-__pycache__/
-*.py[cod]
-
-# Virtual environment
 .venv/
-venv/
-env/
+__pycache__/
+*.pyc
+.pytest_cache/
 
-# PyCharm
-.idea/
-
-# Environment and secrets
+# Environment / secrets
 .env
 kaggle.json
 
 # Data
 data/raw/
-data/processed/
 *.csv
-*.xlsx
-*.parquet
-*.zip
 
-# OS
+# Node / Next
+node_modules/
+.next/
+
+# IDE
+.idea/
+.vscode/
+
+# macOS
 .DS_Store
 
-# Logs
-*.log
+# Streamlit
+.streamlit/secrets.toml
