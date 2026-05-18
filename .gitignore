@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# PyCharm
+.idea/
+
+# OS
+.DS_Store
+
+# Streamlit
+.streamlit/
+
+# Environment
+.env
+
+# Data files
+data/raw/
+data/processed/
+*.csv
+*.xlsx
+*.parquet
+*.zip
+
+# Logs
+*.log
